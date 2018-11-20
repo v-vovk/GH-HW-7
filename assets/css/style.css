@@ -4,6 +4,7 @@
 }
 /* end global style */
 
+/* section style */
 .login-section {
   margin: 0;
   display: flex;
@@ -62,6 +63,9 @@
   max-width: 580px;
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-login .form-heading {
@@ -71,5 +75,45 @@
   font-weight: 300;
   text-align: center;
   padding: 0 20px;
-  margin: 0;
+  margin: 0 0 100px;
+}
+
+.form-login .form-enter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 580px;
+  width: 100%;
+}
+
+.form-login input[type=text] {
+  width: 100%;
+  color: #8492af;
+  font-family: 'Roboto',sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 20px 20px 20px 70px;
+  margin-top: 40px;
+  border: none;
+  border-bottom: 1px solid rgba(132, 146, 175, 0.3);
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-login .form-input {
+  position: relative;
+}
+
+.form-login input.username[type=text]:before {
+  content: '';
+  display: block;
+  width: 26px;
+  height: 28px;
+  background: url('../img/user-icon.png') no-repeat center;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  right: 0;
+
 }
