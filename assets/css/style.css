@@ -1,3 +1,9 @@
+/* global style */
+.accent-color {
+  color: #5384ff;
+}
+/* end global style */
+
 .login-section {
   margin: 0;
   display: flex;
@@ -46,4 +52,24 @@
 .form-login-header .login-link {
   border-bottom: 10px solid #5584ff;
   box-sizing: border-box;
+}
+
+.form-login .welcome-back-form {
+  padding: 100px 0;
+}
+
+.form-login .form-content {
+  max-width: 580px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-login .form-heading {
+  color: #8492af;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  text-align: center;
+  padding: 0 20px;
+  margin: 0;
 }

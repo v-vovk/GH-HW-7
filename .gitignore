@@ -1,3 +1,4 @@
 # IntellijIdea files*.iml.ideaout.DS_Store*.xml
 *.xml
 assets/.DS_Store
+*.iml
