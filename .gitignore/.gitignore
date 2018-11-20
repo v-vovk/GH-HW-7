@@ -1,8 +1,0 @@
-./idea
-*.iml
-*.xml
-*.DS_Store
-# IntellijIdea files
-*.iml
-.idea
-out
