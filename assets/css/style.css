@@ -101,19 +101,13 @@
   box-sizing: border-box;
 }
 
-.form-login .form-input {
-  position: relative;
-}
-
-.form-login input.username[type=text]:before {
-  content: '';
-  display: block;
-  width: 26px;
-  height: 28px;
-  background: url('../img/user-icon.png') no-repeat center;
-  background-size: contain;
-  position: absolute;
-  top: 50%;
-  right: 0;
-
+.form-login .form-enter input[type=submit] {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 25px 165px;
+  margin-top: 125px;
+  border-radius: 36px;
+  background-color: #5584ff;
 }
