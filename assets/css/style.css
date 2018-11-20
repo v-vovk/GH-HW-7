@@ -1,0 +1,49 @@
+.login-section {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../img/bg-login.png");
+  background-size: cover;
+}
+
+.form-login {
+  max-width: 1220px;
+  width: 100%;
+  box-shadow: 0 0 139px rgba(147, 161, 185, 0.59);
+  background-color: #f6f7fa;
+}
+
+.form-login-header {
+  background-color: #0e1a35;
+}
+
+.form-login-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-login-header .main-logo {
+  margin: auto 45px;
+}
+
+.form-login-header .login-or-register {
+  display: flex;
+  align-items: flex-start;
+}
+
+.form-login-header .login-or-register a {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 60px;
+}
+
+.form-login-header .login-link {
+  border-bottom: 10px solid #5584ff;
+  box-sizing: border-box;
+}
