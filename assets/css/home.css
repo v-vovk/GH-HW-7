@@ -7,10 +7,128 @@
 }
 
 .main-navigation .main-logo {
-  margin: 30px 96px 30px 40px;
+  padding: 30px 96px 30px 40px;
   display: block;
+  border-bottom: rgba(11, 10, 16, 0.2) 2px solid;
 }
 
 .main-navigation .main-logo img {
   border-style: none;
 }
+
+.main-navigation .menu-navigation {
+  padding: 0;
+  margin: 0;
+}
+
+.main-navigation .menu-item {
+  list-style: none;
+  cursor: pointer;
+  box-sizing: content-box;
+  display: flex;
+  border-left: rgba(85, 132, 255, 0) 10px solid; /* looks like cheating */
+  border-bottom: rgba(11, 10, 16, 0.2) 2px solid;
+}
+
+.main-navigation .menu-item:hover {
+  box-shadow: 0 0 39px rgba(85, 132, 255, 0.2);
+}
+
+.menu-navigation .active-menu-item {
+  background-color: #122143;
+  border-left: #5584ff 10px solid;
+}
+
+.main-navigation .menu-icon {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 40px 80px 40px 80px;
+}
+
+.main-navigation a.home-icon {
+  position: relative;
+}
+
+.main-navigation a.home-icon:before {
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 40px;
+  width: 24px;
+  height: 21px;
+  background-image: url("../img/menu/home-menu-icon.png");
+}
+
+.main-navigation a.workflow-icon {
+  position: relative;
+}
+
+.main-navigation a.workflow-icon:before {
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 40px;
+  width: 20px;
+  height: 19px;
+  background-image: url("../img/menu/workflow-icom.png");
+}
+
+.main-navigation a.statistics-icon {
+  position: relative;
+}
+
+.main-navigation a.statistics-icon:before {
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 40px;
+  width: 24px;
+  height: 22px;
+  background-image: url("../img/menu/statistics-icon.png");
+}
+
+.main-navigation a.calendar-icon {
+  position: relative;
+}
+
+.main-navigation a.calendar-icon:before {
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 40px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/menu/calendar-icon.png");
+}
+
+.main-navigation a.users-icon {
+  position: relative;
+}
+
+.main-navigation a.users-icon:before {
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 40px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/menu/users-icon.png");
+}
+
+.main-navigation a.settings-icon {
+  position: relative;
+}
+
+.main-navigation a.settings-icon:before {
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 40px;
+  width: 21px;
+  height: 22px;
+  background-image: url("../img/menu/setings-icon.png");
+}
+/* end aside style */

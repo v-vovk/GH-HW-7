@@ -110,6 +110,7 @@
   margin-top: 40px;
   border-radius: 60px;
   background-color: #5584ff;
+  outline: none;
 }
 
 .form-login .form-enter input[type=submit]:hover {
