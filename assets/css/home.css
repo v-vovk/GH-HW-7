@@ -1,0 +1,16 @@
+.main-navigation {
+  max-width: 320px;
+  width: 100%;
+  height: 100vh;
+  background-color: #0e1a35;
+  position: fixed;
+}
+
+.main-navigation .main-logo {
+  margin: 30px 96px 30px 40px;
+  display: block;
+}
+
+.main-navigation .main-logo img {
+  border-style: none;
+}

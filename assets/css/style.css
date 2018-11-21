@@ -16,7 +16,7 @@
 }
 
 .form-login {
-  max-width: 1220px;
+  max-width: 800px;
   width: 100%;
   box-shadow: 0 0 139px rgba(147, 161, 185, 0.59);
   background-color: #f6f7fa;
@@ -33,7 +33,7 @@
 }
 
 .form-login-header .main-logo {
-  margin: auto 45px;
+  margin: auto 30px;
 }
 
 .form-login-header .login-or-register {
@@ -47,7 +47,7 @@
   font-size: 24px;
   font-weight: 500;
   text-decoration: none;
-  padding: 60px;
+  padding: 40px 30px;
 }
 
 .form-login-header .login-link {
@@ -56,7 +56,7 @@
 }
 
 .form-login .welcome-back-form {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .form-login .form-content {
@@ -75,7 +75,7 @@
   font-weight: 300;
   text-align: center;
   padding: 0 20px;
-  margin: 0 0 100px;
+  margin: 0;
 }
 
 .form-login .form-enter {
@@ -106,8 +106,12 @@
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 500;
-  padding: 25px 165px;
-  margin-top: 125px;
-  border-radius: 36px;
+  padding: 25px 100px;
+  margin-top: 40px;
+  border-radius: 60px;
   background-color: #5584ff;
+}
+
+.form-login .form-enter input[type=submit]:hover {
+  box-shadow: 0 0 39px rgba(147, 161, 185, 0.59);
 }
