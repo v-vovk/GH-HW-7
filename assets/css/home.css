@@ -139,3 +139,94 @@
   background-image: url("../img/menu/setings-icon.png");
 }
 /* end aside style */
+
+/* header style */
+.top-menu-fixed {
+  max-width: 1600px;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  margin-left: 320px;
+}
+
+.top-menu-fixed .flex-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 50px;
+  box-sizing: border-box;
+}
+
+.top-menu-fixed .left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.top-menu-fixed .left-nav .home-icon {
+  margin-right: 35px;
+  position: relative;
+}
+
+.top-menu-fixed .left-nav .home-icon:before {
+  position: absolute;
+  content: '';
+  top: 4px;
+  left: -12px;
+  width: 6px;
+  height: 12px;
+  background-image: url("../img/menu/arrow-left.png");
+}
+
+.top-menu-fixed .right-nav {
+  display: flex;
+  align-items: center;
+}
+
+.top-menu-fixed .add-project-button {
+  padding: 15px 35px;
+  margin-right: 50px;
+  border-radius: 24px;
+  background-color: #5584ff;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.top-menu-fixed .button-project-text {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 13px;
+}
+
+.top-menu-fixed .right-nav .notification-icon {
+  margin: 0 50px 0 35px;
+  position: relative;
+}
+
+.top-menu-fixed .right-nav .notification-icon:after {
+  position: absolute;
+  content: '3';
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  top: -6px;
+  right: -7px;
+  width: 6px;
+  height: 12px;
+  padding: 3px 5px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  background-color: #5584ff;
+}
+
+.top-menu-fixed .right-nav .user-profile-photo {
+  display: flex;
+  align-items: center;
+}
+
+.top-menu-fixed .user-profile-photo .photo-icon {
+  margin-right: 10px;
+}
