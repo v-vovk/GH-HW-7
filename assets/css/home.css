@@ -60,6 +60,10 @@ body {
   cursor: pointer;
 }
 
+.top-menu-fixed .add-project-button:hover {
+  box-shadow: 0 0 39px rgba(85, 132, 255, 0.6);
+}
+
 .top-menu-fixed .button-project-text {
   color: #ffffff;
   font-size: 18px;
@@ -301,8 +305,6 @@ body {
   border-radius: 50px;
   border: 1px solid rgba(132, 146, 175, 0.3);
   padding: 23px 40px;
-  /*max-width: 200px;*/
-  /*width: 100%;*/
   display: flex;
   align-items: center;
 }
@@ -323,7 +325,17 @@ body {
 }
 
 .main-dashboard .max-width {
-  max-width: 860px;
+  max-width: 880px;
   width: 100%;
   margin-right: 0;
+  padding: 0;
+}
+
+.main-dashboard .max-width .your-sales-nav {
+  padding: 30px 35px 0;
+}
+
+.main-dashboard .max-width .graph-image {
+  max-width: 880px;
+  width: 100%;
 }
