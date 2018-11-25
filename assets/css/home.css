@@ -339,3 +339,50 @@ body {
   max-width: 880px;
   width: 100%;
 }
+
+.main-dashboard .card {
+  max-width: 472px;
+  width: 100%;
+  border: 1px solid rgba(132, 146, 175, 0.3);
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.main-dashboard .card-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.main-dashboard .card-heading {
+  color: #0e1a35;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.main-dashboard .status-number-two {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #f83c7b;
+  color: white;
+  text-align: center;
+}
+
+.main-dashboard .status-number-five {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #5384ff;
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+}
