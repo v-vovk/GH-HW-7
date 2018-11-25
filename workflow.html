@@ -2,9 +2,246 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Merkury dashboard - Workflow</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/workflow.css">
 </head>
 <body>
-
+    <header class="top-menu-fixed">
+    <nav class="flex-navigation">
+        <div class="left-nav">
+            <a href="#" class="home-icon">
+                <img src="assets/img/menu/menu.png" alt="menu img">
+            </a>
+            <a href="#">
+                <img src="assets/img/menu/search.png" alt="menu img">
+            </a>
+        </div>
+        <div class="right-nav">
+            <a href="#" class="add-project-button">
+                <img src="assets/img/menu/plus-icon.png" alt="plus img">
+                <span class="button-project-text">Add project</span>
+            </a>
+            <a href="#">
+                <img src="assets/img/menu/messages.png" alt="messages img">
+            </a>
+            <a href="#" class="notification-icon">
+                <img src="assets/img/menu/notifications.png" alt="notifications img">
+            </a>
+            <div class="user-profile-photo">
+                <a href="#" class="photo-icon">
+                    <img src="assets/img/menu/photo-user.png" alt="user photo img">
+                </a>
+                <a href="#">
+                    <img src="assets/img/menu/arrow-down.png" alt="arroe down img">
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
+    <aside class="main-navigation">
+        <nav class="box-scroll-navigation">
+            <a href="index.html" class="main-logo">
+                <img src="assets/img/home-page/main-logo.png" alt="main Merkury logo">
+            </a>
+            <ul class="menu-navigation">
+                <li class="menu-item">
+                    <a href="home.html" class="home-icon menu-icon">Home</a>
+                </li>
+                <li class="menu-item active-menu-item">
+                    <a href="workflow.html" class="workflow-icon menu-icon">Workflow</a>
+                </li>
+                <li class="menu-item">
+                    <a href="statistics.html" class="statistics-icon menu-icon">Statistics</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="calendar-icon menu-icon">Calendar</a>
+                </li>
+                <li class="menu-item">
+                    <a href="users.html" class="users-icon menu-icon">Users</a>
+                </li>
+                <li class="menu-item">
+                    <a href="settings.html" class="settings-icon menu-icon">Settings</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="main-dashboard">
+        <div class="container">
+            <div class="widgets">
+                <section class="card todo">
+                    <nav class="card-nav">
+                        <h2 class="card-heading">To Do <span class="color-grey">(6)</span></h2>
+                        <img class="arrow-right" src="assets/img/workflow-page/arrow_right.png" alt="arrow icon">
+                    </nav>
+                    <ul class="task-list">
+                        <li class="task-list-item">
+                            <div class="task-box">
+                                <img class="task-image" src="assets/img/home-page/task-image.png"
+                                     alt="image for task name">
+                                <div class="details-task">
+                                    <h3 class="task-item-heading">
+                                        New website for Symu.com
+                                    </h3>
+                                    <div class="time-for-task">
+                                        <img class="clock-image" src="assets/img/home-page/delay-clock.png"
+                                             alt="delay clock">
+                                        <p class="time-task-counter color-pink">5 days delays</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/home-page/options.png" alt="option icon">
+                        </li>
+                        <li class="task-list-item">
+                            <div class="task-box">
+                                <img class="task-image" src="assets/img/home-page/task-image.png"
+                                     alt="image for task name">
+                                <div class="details-task">
+                                    <h3 class="task-item-heading">
+                                        Free business PSD Template
+                                    </h3>
+                                    <div class="time-for-task">
+                                        <img class="clock-image" src="assets/img/home-page/delay-clock.png"
+                                             alt="delay clock">
+                                        <p class="time-task-counter color-pink">2 days delays</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/home-page/options.png" alt="option icon">
+                        </li>
+                        <li class="task-list-item">
+                            <div class="task-box">
+                                <img class="task-image" src="assets/img/home-page/task-image.png"
+                                     alt="image for task name">
+                                <div class="details-task">
+                                    <h3 class="task-item-heading">
+                                        New logo for JCD.pl
+                                    </h3>
+                                    <div class="time-for-task">
+                                        <img class="clock-image" src="assets/img/home-page/clock.png"
+                                             alt="delay clock">
+                                        <p class="time-task-counter color-grey">5 days left</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/home-page/options.png" alt="option icon">
+                        </li>
+                        <li class="task-list-item">
+                            <div class="task-box">
+                                <img class="task-image" src="assets/img/home-page/task-image.png"
+                                     alt="image for task name">
+                                <div class="details-task">
+                                    <h3 class="task-item-heading">
+                                        Free Icons Set vol. 3
+                                    </h3>
+                                    <div class="time-for-task">
+                                        <img class="clock-image" src="assets/img/home-page/clock.png"
+                                             alt="delay clock">
+                                        <p class="time-task-counter color-grey">10 days left</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/home-page/options.png" alt="option icon">
+                        </li>
+                        <li class="task-list-item">
+                            <div class="task-box">
+                                <img class="task-image" src="assets/img/home-page/task-image.png"
+                                     alt="image for task name">
+                                <div class="details-task">
+                                    <h3 class="task-item-heading">
+                                        Free Icons Set vol. 3
+                                    </h3>
+                                    <div class="time-for-task">
+                                        <img class="clock-image" src="assets/img/home-page/clock.png"
+                                             alt="delay clock">
+                                        <p class="time-task-counter color-grey">10 days left</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/home-page/options.png" alt="option icon">
+                        </li>
+                        <li class="task-list-item">
+                            <div class="task-box">
+                                <img class="task-image" src="assets/img/home-page/task-image.png"
+                                     alt="image for task name">
+                                <div class="details-task">
+                                    <h3 class="task-item-heading">
+                                        Free Icons Set vol. 3
+                                    </h3>
+                                    <div class="time-for-task">
+                                        <img class="clock-image" src="assets/img/home-page/clock.png"
+                                             alt="delay clock">
+                                        <p class="time-task-counter color-grey">10 days left</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/home-page/options.png" alt="option icon">
+                        </li>
+                    </ul>
+                </section>
+                <section class="card in-progress">
+                    <nav class="card-nav">
+                        <h2 class="card-heading">In Progress <span class="color-grey">(3)</span></h2>
+                        <img class="arrow-right" src="assets/img/workflow-page/arrow_right.png" alt="arrow icon">
+                    </nav>
+                    <ul class="task-list">
+                        <li class="task-list-item">
+                            <div class="task-box">
+                                <img class="task-image" src="assets/img/home-page/task-image.png"
+                                     alt="image for task name">
+                                <div class="details-task">
+                                    <h3 class="task-item-heading">
+                                        New website for Symu.com
+                                    </h3>
+                                    <div class="time-for-task">
+                                        <img class="clock-image" src="assets/img/home-page/delay-clock.png"
+                                             alt="delay clock">
+                                        <p class="time-task-counter color-pink">5 days delays</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/home-page/options.png" alt="option icon">
+                        </li>
+                        <li class="task-list-item">
+                            <div class="task-box">
+                                <img class="task-image" src="assets/img/home-page/task-image.png"
+                                     alt="image for task name">
+                                <div class="details-task">
+                                    <h3 class="task-item-heading">
+                                        Free business PSD Template
+                                    </h3>
+                                    <div class="time-for-task">
+                                        <img class="clock-image" src="assets/img/home-page/delay-clock.png"
+                                             alt="delay clock">
+                                        <p class="time-task-counter color-pink">2 days delays</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/home-page/options.png" alt="option icon">
+                        </li>
+                        <li class="task-list-item">
+                            <div class="task-box">
+                                <img class="task-image" src="assets/img/home-page/task-image.png"
+                                     alt="image for task name">
+                                <div class="details-task">
+                                    <h3 class="task-item-heading">
+                                        New logo for JCD.pl
+                                    </h3>
+                                    <div class="time-for-task">
+                                        <img class="clock-image" src="assets/img/home-page/clock.png"
+                                             alt="delay clock">
+                                        <p class="time-task-counter color-grey">5 days left</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/img/home-page/options.png" alt="option icon">
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

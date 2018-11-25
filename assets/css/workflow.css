@@ -254,6 +254,7 @@ body {
 }
 /* end aside style */
 
+
 /* main style */
 .main-dashboard {
   max-width: 1920px;
@@ -272,88 +273,15 @@ body {
   box-sizing: border-box;
 }
 
-.main-dashboard .hello-heading {
-  color: #0e1a35;
-  font-size: 48px;
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
-}
-
 .main-dashboard .widgets {
   display: flex;
   flex-flow: row wrap;
-  margin-top: 42px;
-}
-
-.main-dashboard .your-sales {
-  max-width: 575px;
-  width: 100%;
-  padding: 30px 35px 45px;
-  border: 1px solid rgba(132, 146, 175, 0.3);
-  background-color: #ffffff;
-  box-sizing: border-box;
-  margin: 0 42px 42px 0;
-}
-
-.main-dashboard .your-sales-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-.main-dashboard .widgets-heading {
-  color: #8492af;
-  font-size: 36px;
-  font-weight: 700;
-  margin: 0;
-}
-
-.main-dashboard .select-wrap {
-  border-radius: 50px;
-  border: 1px solid rgba(132, 146, 175, 0.3);
-  padding: 23px 40px;
-  display: flex;
-  align-items: center;
-}
-
-.main-dashboard .select-wrap label{
-  font-size: 14px;
-  color: #8492af;
-  font-weight: 400;
-}
-
-.main-dashboard .select-wrap select {
-  color: #0e1a35;
-  font-size: 14px;
-  font-weight: 700;
-  border: 0;
-  outline: none;
-  background: none;
-}
-
-.main-dashboard .max-width {
-  max-width: 880px;
-  width: 100%;
-  margin-right: 0;
-  padding: 0;
-}
-
-.main-dashboard .max-width .your-sales-nav {
-  padding: 30px 35px 0;
-}
-
-.main-dashboard .max-width .graph-image {
-  max-width: 880px;
-  width: 100%;
+  margin-top: 10px;
 }
 
 .main-dashboard .card {
   max-width: 472px;
   width: 100%;
-  border: 1px solid rgba(132, 146, 175, 0.3);
-  background-color: #ffffff;
   box-sizing: border-box;
   margin: 0 42px 42px 0;
 }
@@ -366,41 +294,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 30px;
-  border-bottom: 1px solid rgba(132, 146, 175, 0.3);
-  box-sizing: border-box;
+  margin-bottom: 35px;
 }
 
 .main-dashboard .card-heading {
   color: #0e1a35;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 500;
   margin: 0;
-}
-
-.main-dashboard .status-number-two {
-  display: inline-block;
-  height: 45px;
-  width: 45px;
-  line-height: 45px;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  background-color: #f83c7b;
-  color: white;
-  text-align: center;
-}
-
-.main-dashboard .status-number-five {
-  display: inline-block;
-  height: 45px;
-  width: 45px;
-  line-height: 45px;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  background-color: #5384ff;
-  color: white;
-  text-align: center;
-  margin-right: 10px;
 }
 
 .main-dashboard .task-list {
@@ -413,14 +314,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0;
+  margin: 0 0 15px;
   padding: 30px 35px;
-  border-bottom: 1px solid rgba(132, 146, 175, 0.3);
+  border: 1px solid rgba(132, 146, 175, 0.3);
+  background-color: #ffffff;
   box-sizing: border-box;
-}
-
-.main-dashboard .task-list-item:last-child {
-  border-bottom: 0;
 }
 
 .main-dashboard .task-box {
@@ -453,70 +351,4 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin: 0;
-}
-
-.main-dashboard .messages .task-list-item {
-  padding: 30px 35px 20px 35px;
-  border-bottom: 1px solid rgba(132, 146, 175, 0.3);
-  box-sizing: border-box;
-}
-
-.main-dashboard .messages .task-list-item:last-child {
-  border-bottom: none;
-}
-
-.main-dashboard .messages .task-item-heading {
-  color: #0e1a35;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.main-dashboard .messages .time-massage {
-  color: #8492af;
-  font-weight: 400;
-}
-
-.main-dashboard .messages .time-task-counter {
-  color: #0e1a35;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.main-dashboard .messages .icon-for-message {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.main-dashboard .messages .icon-for-message img {
-  margin-right: 10px;
-}
-
-.main-dashboard .activity .task-item-heading {
-  color: #0e1a35;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.main-dashboard .activity .time-massage {
-  color: #8492af;
-  font-weight: 400;
-}
-
-.main-dashboard .activity .task-list-item {
-  border-bottom: none;
-}
-
-.main-dashboard .activity .task-box {
-  position: relative;
-}
-
-.main-dashboard .activity .vertical-line {
-  position: absolute;
-  top: 49px;
-  left: 24px;
-  width: 1px;
-  height: 56px;
-  border-left: 1px solid rgba(132, 146, 175, 0.3);
-  box-sizing: border-box;
 }
