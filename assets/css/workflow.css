@@ -10,6 +10,10 @@ body {
   color: #8492af;
 }
 
+.color-green {
+  color: #00bf1b;
+}
+
 .gray-bg {
   background-color: rgba(218, 222, 231, 0.3);
 }
