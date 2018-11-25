@@ -9,6 +9,14 @@ body {
   color: #f83c7b;
 }
 
+.color-grey {
+  color: #8492af;
+}
+
+.gray-bg {
+  background-color: rgba(218, 222, 231, 0.3);
+}
+
 /* header style */
 .top-menu-fixed {
   max-width: 1920px;
@@ -349,7 +357,12 @@ body {
   width: 100%;
   border: 1px solid rgba(132, 146, 175, 0.3);
   background-color: #ffffff;
+  box-sizing: border-box;
+  margin: 0 42px 42px 0;
+}
 
+.main-dashboard .card:last-child {
+  margin: 0 0 42px 0;
 }
 
 .main-dashboard .card-nav {
@@ -405,6 +418,21 @@ body {
   align-items: flex-start;
   margin: 0;
   padding: 30px 35px;
+  border-bottom: 1px solid rgba(132, 146, 175, 0.3);
+  box-sizing: border-box;
+}
+
+.main-dashboard .task-list-item:last-child {
+  border-bottom: 0;
+}
+
+.main-dashboard .task-box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.main-dashboard .task-image {
+  margin-right: 25px;
 }
 
 .main-dashboard .task-item-heading {
@@ -417,7 +445,7 @@ body {
 .main-dashboard .time-for-task {
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .main-dashboard .clock-image {
@@ -428,4 +456,41 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin: 0;
+}
+
+.main-dashboard .messages .task-list-item {
+  padding: 30px 35px 20px 35px;
+  border-bottom: 1px solid rgba(132, 146, 175, 0.3);
+  box-sizing: border-box;
+}
+
+.main-dashboard .messages .task-list-item:last-child {
+  border-bottom: none;
+}
+
+.main-dashboard .messages .task-item-heading {
+  color: #0e1a35;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main-dashboard .messages .time-massage {
+  color: #8492af;
+  font-weight: 400;
+}
+
+.main-dashboard .messages .time-task-counter {
+  color: #0e1a35;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main-dashboard .messages .icon-for-message {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.main-dashboard .messages .icon-for-message img {
+  margin-right: 10px;
 }
